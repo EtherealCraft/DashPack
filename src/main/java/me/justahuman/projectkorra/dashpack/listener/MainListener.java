@@ -96,12 +96,12 @@ public class MainListener implements Listener {
         }
     }
 
-    @EventHandler(priority = EventPriority.MONITOR, ignoreCancelled = true)
-    public void onSneak(PlayerToggleSneakEvent event) {
-        if (event.isSneaking() && event.getPlayer().isSprinting()) {
-            event.getPlayer().setSprinting(false);
-        }
-    }
+//    @EventHandler(priority = EventPriority.MONITOR, ignoreCancelled = true)
+//    public void onSneak(PlayerToggleSneakEvent event) {
+//        if (event.isSneaking() && event.getPlayer().isSprinting()) {
+//            event.getPlayer().setSprinting(false);
+//        }
+//    }
 
     @EventHandler
     public void onQuit(PlayerQuitEvent event) {
